@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 #
-# ./blind_binsearch.py http://192.168.12{} OR SLEEP(0.05) OR '%" "USER()"
+# ./blind_binsearch.py http://localhost "%'{} OR SLEEP(1) OR '%" "USER()"
 #
 
 import argparse
