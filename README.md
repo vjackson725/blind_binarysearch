@@ -15,7 +15,7 @@ Install using `pip install requests`.
 There are Four parameters:
 * target: The target as a url. This must specify the protocol, i.e. `https://...`.
 * param: The injectible parameter. We assume this is a GET parameter.
-* base-query: The base SQL statement to use. Usually of the form `... {} OR SLEEP(1) OR ...`. Use the usuall python format-string format (i.e. `{}`) to denote where you want the conditional to go.
+* base-query: The base SQL statement to use. Usually of the form `... AND {} OR SLEEP(1) OR ...`. Use the usuall python format-string format (i.e. `{}`) to denote where you want the conditional to go.
 * var: The variable you want to test. e.g. `USER()`
 
 
